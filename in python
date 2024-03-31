@@ -1,0 +1,10 @@
+n=int(input())
+if n>=100 and n<=999:
+  mid=n//10
+  mid=mid%10
+  if mid%3==0:
+    print("TN")
+  else:
+    print("not a TN")
+else:
+  print("enter the valid input ")
